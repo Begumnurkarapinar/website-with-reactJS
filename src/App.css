@@ -1,0 +1,114 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #61dafb;
+  color: white;
+  padding: 20px;
+}
+
+.App-menu {
+  background-color: #333;
+}
+
+.App-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.App-menu li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.App-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.PhotoGallery,
+.VideoGallery {
+  margin: 20px 0;
+}
+
+.PhotoGallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.VideoGallery iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border: none;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: #61dafb;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.card-color {
+  background-color: #61dafb;
+}
+
+.certificate {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.list-group {
+  margin: 0;
+  padding: 0;
+}
+
+.list-group-item {
+  background-color: #555;
+  color: white;
+  margin: 5px 0;
+  padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+
